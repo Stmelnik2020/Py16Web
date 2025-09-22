@@ -61,9 +61,9 @@ def baz(name):
 
 if __name__ == '__main__':
     long_loop(1_000_00000)
-    print(long_loop.__name__)
-    print(long_loop.__doc__)
-    print(long_loop.__annotations__)
-    print(baz("Edward"))
+    # print(long_loop.__name__)
+    # print(long_loop.__doc__)
+    # print(long_loop.__annotations__)
+    # print(baz("Edward"))
     print(baz.__wrapped__("Oleksandr"))
     print(baz.__wrapped__.__wrapped__("Evgeny"))
